@@ -1,5 +1,7 @@
-const cipher = {
+/*const cipher = {
   // ...
 };
 
-export default cipher;
+export default cipher;*/
+
+const cipher = 

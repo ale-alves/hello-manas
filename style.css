@@ -1,0 +1,28 @@
+body {
+    background-image: url(imgs/flower-purple.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    
+    
+}
+
+h1 {
+    color: #fff;
+}
+
+header{
+    text-align: center;
+}
+
+.box{
+    background-color: rgb(218, 160, 179);
+    height: 300px; /*altura */
+    width: 400px; /*largura*/
+    padding: 20px 20px 70px; /*gera espaço ao redor do conteúdo*/
+    border: solid;
+    border-radius: 30px; /*bordas arredondadas*/
+    text-align: center; /*texto centralizado*/
+    margin: auto; /*para centralizar horizontalmente um elemento de bloco*/
+}
+
