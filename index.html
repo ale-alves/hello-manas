@@ -2,46 +2,43 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <title>Caesar Cipher - Dairy of friends</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Dancing+Script&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div id="root">
-      <nav>
-      <!--colocar um carousel com imgs de mulheres-->
-      </nav>
-      <header>
-        <h1>Denuncie - Violência Doméstica</h1>
-        
+    <header>
+        <h1>Hello Manas!</h1>
       </header>
-      <div class="box">
-        <div class="box1">
-           <section>
-              <h2>Sua vida, vale muito. Denuncie!</h2>
-              <textarea name="textarea" rows="5" cols="30" placeholder="Faça sua denúncia..."></textarea><br>
-              <input type="number"><br>
-              <button name="button">Codificar</button><br>
-           </section>
-        </div>
-      <div class="box2">
-        <section>
-           <textarea name="textarea" rows="5" cols="30" placeholder="Denúncia recebida..."></textarea><br>
-           <input type="number"><br>
-           <button name="button">Decodificar</button>
-        </section>
-      </div> 
-                
-      <aside>
-        <!--Texto sobre mulheres sofrem violência doméstica-->
-      </aside>
+
+      <main>
+      <div>
+        <form class="form">
+          <h3>DIÁRIO ENTRE AMIGAS</h3>
+          <label for="mensagem">Digite sua mensagem:</label><br><br>
+          <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Hello Manas..."></textarea><br><br>
+          <label for="offset">Deslocamento:</label>
+          <input type="number" id="desloc"><br><br>
+          
+          <input type="radio" class="cipher" id="cifrar" name="action" value="codificar">
+          <label class="radioCipher" for="cipher">Codificar</label>
+          <input type="radio"  class="cipher" id="decifrar"  name="action" value="decodificar">
+          <label class="radioDecipher" for="cipher">Decodificar</label><br><br>
+          
+          <input type="submit" id="submit" name="selection" placeholder="Enviar"><br><br>
+          <p id="resMsg"></p>
+        </form>
+      </div>
+      </main>
 
       <footer>
-      <!--Colocar *direitos reservados* opção de redes sociais-->
-
+        <a href="http://">
+       
       </footer>
-     
+
+       
       
-    </div>
+    
     <script src="index.js" type="module"></script>
   </body>
 </html>
