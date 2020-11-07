@@ -74,8 +74,6 @@ Inspirada em um diário simples e bem objetivo, com a intenção de grandes melh
 
 Na caixa rosa onde está escrito "Hello Manas", é digitado a mensagem do usuário. Em seguida, escolher a chave de deslocamento das letras, assinalar o "codificar" e finalizando com o botão "Enviar", a mensagem será codificada logo embaixo. Para decoficar a mensagem, somente copiar e colar no espaço de texto, selecionar a mesma chave de deslocamento, assinalar "decodificar" e clicar em "Enviar".
 
-Para testar [clique aqui](http://localhost:5000)
-
 ### Autora
 
 [Github](https://github.com/ale-alves) | Alessandra Alves
