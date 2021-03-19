@@ -1,43 +1,83 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <title>HELLO MANAS!</title>
+    <meta charset="utf-8" />
+    <title>hello manas</title>
     <link rel="stylesheet" href="style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Dancing+Script&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="img/iconNav.jpg">
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Handlee&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header>
-        <h1>Hello Manas!</h1>
-      </header>
+    <main id="container">
+      <section class="item-logo">
+        <img src="img/logo.png" alt="logo-hello-manas" />
+        <p class="mensage">O Diário Entre Amigas</p>
+      </section>
 
-      <main>
-      <div>
+      <section class="item-code">
         <form class="form">
-          <h3>DIÁRIO ENTRE AMIGAS</h3>
-          <label for="mensagem">Digite sua mensagem:</label><br><br>
-          <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Hello Manas..."></textarea><br><br>
-          <label for="offset">Chave:</label>
-          <input type="number" id="desloc"><br><br>
-          
-          <input type="radio" class="cipher" id="cifrar" name="action" value="codificar">
-          <label class="radioCipher" for="cipher">Codificar</label>
-          <input type="radio"  class="cipher" id="decifrar"  name="action" value="decodificar">
-          <label class="radioDecipher" for="cipher">Decodificar</label><br><br>
-          
-          <input type="submit" id="submit" name="selection" placeholder="Enviar"><br><br>
-          <p id="resMsg"></p>
+          <label class="item-msg" for="mensagem"
+            >Maaaaaaana, cê não sabe o que aconteceu...</label
+          >
+          <textarea
+            name="msg"
+            id="msg"
+            placeholder="Escreva aqui o ba-ba-do..."
+          ></textarea>
+          <section class="item-desloc-radio">
+            <section class="item-desloc">
+              <label class="offset" for="offset">Chave:</label>
+              <input type="number" id="desloc" />
+            </section>
+            <section class="item-radio">
+              <input
+                type="radio"
+                class="cipher"
+                id="cifrar"
+                name="action"
+                value="codificar"
+              />
+              <label class="radioCipher" for="cipher">Codificar</label>
+              <input
+                type="radio"
+                class="cipher"
+                id="decifrar"
+                name="action"
+                value="decodificar"
+              />
+              <label class="radioDecipher" for="cipher">Decodificar</label>
+              <button class="button" id="submit">Enviar</button>
+            </section>
+          </section>
         </form>
-      </div>
-      </main>
+        <section class="code-decode">
+          <label class="msg-code-decode">Eita! Putz! Nossaa...</label>
+          <textarea
+            name="msg"
+            id="resMsg"
+            placeholder="Mensagem cifrada ou decifrada..."
+          ></textarea>
+          <section class="button-copy-clean">
+            <button class="button" id="copy">Copiar</button>
+            <button class="button" id="clean">Limpar</button>
+          </section>
+        </section>
+      </section>
+    </main>
 
-      <footer>
-        <p>Projeto desenvolvido no Bootcamp da Laboratória - 2020 <br> 
-          <a href="https://github.com/ale-alves"> @Alessandra Alves</a></p>
-      </footer>
-  
+    <footer>
+      <p>
+        <img class="logo-github" src="img/logo-github.svg" alt="logo-github" />
+        Desenvolvido por
+        <a href="https://github.com/ale-alves"> Alessandra Alves</a> no Bootcamp
+        da Laboratória
+      </p>
+    </footer>
+
     <script src="index.js" type="module"></script>
-
   </body>
 </html>
