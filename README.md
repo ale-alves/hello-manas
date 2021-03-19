@@ -64,7 +64,7 @@ A interface deve permitir ao usuário:
 
 ### Experiência do Usuário
 
-Vamos testar? [Clique aqui](https://ale-alves.github.io/SAP005-cipher/) 🎉
+Vamos testar? [Clique aqui] 🎉
 
 ### Autora
 
