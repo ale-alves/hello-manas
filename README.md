@@ -62,13 +62,13 @@ A interface deve permitir ao usuário:
 
 ![Interface](src/img/helloManas.gif)
 
-### Experiência do Usuário
+### Experiência do Usuário 🎉
 
-Vamos testar? [Clique aqui](https://sap-005-cipher-hellomanas.vercel.app/) 🎉
+Vamos testar? [Clique aqui](https://sap-005-cipher-hellomanas.vercel.app/)
 
-### Autora
+### Desenvolvedora 👩🏻‍💻
 
-[Github](https://github.com/ale-alves) | Alessandra Alves
+[Alessandra Alves](https://github.com/ale-alves)
 
 
 
